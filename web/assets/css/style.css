@@ -1,0 +1,139 @@
+:root {
+    --primary: #FF5500;
+    --secondary: #2A2A2A;
+    --light: #F5F5F5;
+    --accent: #00A896;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--light);
+    color: var(--secondary);
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+}
+
+.navbar {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: var(--primary) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: #e04b00;
+    border-color: #e04b00;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: var(--primary);
+}
+
+.price {
+    font-weight: bold;
+    color: var(--accent);
+    font-size: 1.2rem;
+}
+
+#carrinho-btn {
+    font-size: 1.2rem;
+}
+
+#carrinho-contador {
+    font-size: 0.7rem;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.carrinho-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.carrinho-item:last-child {
+    border-bottom: none;
+}
+
+
+/* Hero Banner */
+.hero-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/images/skate-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-banner h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: var(--primary);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Cards de Destaque */
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Newsletter */
+.bg-dark {
+    background-color: var(--secondary) !important;
+}
+
+/* Footer */
+footer a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--primary) !important;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .hero-banner {
+        min-height: auto;
+        padding: 3rem 0;
+        text-align: center;
+    }
+    
+    .hero-banner h1 {
+        font-size: 2.5rem;
+    }
+}

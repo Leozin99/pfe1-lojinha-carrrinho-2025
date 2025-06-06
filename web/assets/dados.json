@@ -1,0 +1,51 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Skate Completo Profissional",
+      "descricao": "Skate pronto para manobras, shape maple, trucks de alumínio e rodas 99A.",
+      "preco": 599.90,
+      "imagem": "skate2.png"
+    },
+    {
+      "id": 2,
+      "nome": "Camiseta SkateHub",
+      "descricao": "Camiseta básica, 100% algodão.",
+      "preco": 69.90,
+      "imagem": "blusavans.png",
+      "categoria": "vestuario"
+    },
+    {
+      "id": 3,
+      "nome": "Tênis de Skate Profissional",
+      "descricao": "Tênis desenvolvido para skatistas, com solado resistente e amortecimento.",
+      "preco": 249.90,
+      "imagem": "tenispro.png",
+      "categoria": "vestuario"
+    },
+    {
+      "id": 4,
+      "nome": "Boné SkateHub",
+      "descricao": "Boné ajustável com logo bordado, 100% algodão.",
+      "preco": 89.90,
+      "imagem": "bonealgo.png",
+      "categoria": "acessorios"
+    },
+    {
+      "id": 5,
+      "nome": "Rodas para Skate 54mm",
+      "descricao": "Conjunto com 4 rodas 54mm 99A, alta durabilidade.",
+      "preco": 129.90,
+      "imagem": "rodas.png",
+      "categoria": "equipamento"
+    },
+    {
+      "id": 6,
+      "nome": "Moletom SkateHub",
+      "descricao": "Moletom com capuz, 80% algodão 20% poliéster.",
+      "preco": 159.90,
+      "imagem": "moletom.png",
+      "categoria": "vestuario"
+    }
+  ]
+}
